@@ -25,7 +25,7 @@ function HomeScreen({navigation}) {
 
   return (
     <View style={styles.container}>
-      <View>
+      {/* <View>
           <Button
             onPress={() => setModalVisible(true)}
             title={`currency: (${currency})`}
@@ -37,7 +37,7 @@ function HomeScreen({navigation}) {
             title={`language: (${language})`}
             color="#000000"
           />
-      </View>
+      </View> */}
 
     <Modal
         animationType="slide"
@@ -100,7 +100,7 @@ function HomeScreen({navigation}) {
         </View>
       </Modal>
     <ImageBackground source={image} style={styles.image}>
-      <Button title="Ramadan Menu" onPress={()=> navigation.navigate('Items')} />
+      <Button title="Ramadan Menu" onPress={()=> navigation.navigate('Items')} color="gray" />
     </ImageBackground>
     </View>
   )

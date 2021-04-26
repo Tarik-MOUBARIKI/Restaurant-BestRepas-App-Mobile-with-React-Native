@@ -27,33 +27,27 @@ const storeData = async (value, value2, value3) => {
 
 const items = [
   {
-     title: 'ftour for one person',
-     titleA: 'فطور لشخص واحد',
+     title: 'plat principal 1',
+     titleA: '  فطوري',
      avatar: 'https://www.thenationalnews.com/image/policy:1.730326:1526297736/SofitelJBR-8609.jpg?f=16x9&w=1200&$p$f$w=9375cb0',
      prix: 120,
      description: " Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour ."
   },
   {
-    title: 'ftour for two person',
-    titleA: 'فطور2 اشخاص',
+    title: 'plat principal 2',
+    titleA: ' فطوري',
     avatar: 'https://ca-times.brightspotcdn.com/dims4/default/8fc69cf/2147483647/strip/true/crop/7360x4912+0+0/resize/840x561!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F10%2F7a%2Fe8f722294931ac9c4381f9d43b4b%2Fgettyimages-1140558529-1.jpg',
     prix: 220,
     description: "Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour."
  },
  {
-  title: 'ftour fammiliar',
-  titleA: 'فطور عائلي',
+  title: 'plat principal 3',
+  titleA: 'فطوري',
   avatar: 'https://curlytales.com/wp-content/uploads/2021/03/Iftarfeature.jpg',
   prix: 360,
   description: 'Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.'
 },
-{
-  title: 'ftour fammiliar MIX',
-  titleA: 'فطور عائلي',
-  avatar: 'https://curlytales.com/wp-content/uploads/2021/03/Iftarfeature.jpg',
-  prix: 450,
-  description: 'Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,'
-},
+
  ]
 
 
@@ -148,7 +142,7 @@ function ItemsScreen({navigation}) {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: "#000000",
+      backgroundColor: "#FFFFFF",
     },
     centeredView: {
       flex: 1,
@@ -177,7 +171,10 @@ const styles = StyleSheet.create({
       elevation: 2
     },
     buttonOpen: {
-      backgroundColor: "#8b0000",
+      backgroundColor: "gray",
+      margin: 20,
+      marginLeft: 100,
+      marginRight: 100
     },
     buttonClose: {
       backgroundColor: "#8b0000",

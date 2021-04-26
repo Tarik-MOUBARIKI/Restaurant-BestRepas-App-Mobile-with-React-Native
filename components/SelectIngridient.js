@@ -27,8 +27,8 @@ const Ingridients = [
     },
     
    {
-    title: 'salade nicoise',
-    titleA: 'سلطة النيشواش',
+    title: 'salade ',
+    titleA: 'سلطة',
     avatar: 'https://image.freepik.com/free-photo/vegetable-canned-tuna-salad_185870-375.jpg',
     prix: 16,
     description: 'zerty'
@@ -96,7 +96,7 @@ function SelectIngidient({navigation}) {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: "#000000",
+      backgroundColor: "#FFFFFF",
     },
     box: {
         textAlign: 'center',
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
         marginTop: 40
     },
     textStyle: {
-      color: '#FFF',
+      color: '#000000',
       fontWeight: "bold",
       textAlign: "center",
       fontSize: 15
